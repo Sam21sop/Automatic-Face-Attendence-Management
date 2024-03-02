@@ -81,16 +81,16 @@ while True:
                     name = str(name)
                     if name in row:
                         person = str(row)
-                        print(name)
+                        # print(name)
                 listString = str(box)
-                print(box)
+                # print(box)
                 if name in listString:
                     singleList = list(flatten(box))
                     listlen = len(singleList)
                     Index = singleList.index(name)
                     name = singleList[Index]
                     Roll_Number = singleList[Index + 1]
-                    print(Roll_Number)
+                    # print(Roll_Number)
 
             text = "{} : {} : {:.2f}%".format(name, Roll_Number, proba * 100)
             y = startY - 10 if startY - 10 > 10 else startY + 10
