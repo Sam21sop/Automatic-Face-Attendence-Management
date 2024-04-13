@@ -27,10 +27,14 @@ The "Face-Attendance Application" is a Python project utilizing Scikit-learn's S
     ```bash
     cd Automatic-Face-Attendence-Management
 
-3. Install dependencies:
+3. Create vertual environment
+    ```bash
+    py -m venv your_virtual_environment_name
+
+4. Install dependencies:
     ```bash
     pip install -r requirement.txt -y
 
-4. Running the Project
+5. Running the Project
     ```bash
     python main.py
