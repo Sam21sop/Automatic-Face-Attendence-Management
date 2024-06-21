@@ -14,7 +14,7 @@ The "Face-Attendance Application" is a Python project utilizing Scikit-learn's S
 ## Getting Started
 
 #### Prerequisites
-- Python 10+
+- Python 3.10+
 - pip (Pyhton index Package Manager)
 
 
